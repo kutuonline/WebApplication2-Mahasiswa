@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="db_kampusModelStoreContainer" CdmEntityContainer="db_kampusEntities">
+    <EntitySetMapping Name="mahasiswas">
+      <EntityTypeMapping TypeName="db_kampusModel.mahasiswa">
+        <MappingFragment StoreEntitySet="mahasiswa">
+          <ScalarProperty Name="nip" ColumnName="nip" />
+          <ScalarProperty Name="nm_mhs" ColumnName="nm_mhs" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="alamat" ColumnName="alamat" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
